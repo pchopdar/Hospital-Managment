@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: UshaKiranHospital-2
+Implementation-Version: 1.0.0
+Built-By: shri
+Implementation-Vendor-Id: com.hospitalmanagment
+Build-Jdk: 1.8.0_152
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/UshaKiranHospital-2
+Created-By: Maven Integration for Eclipse
+
