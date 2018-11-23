@@ -206,7 +206,7 @@ a:hover, a:active {
 
 .site-navigation ul li a:hover,
 .site-navigation ul li.current-menu-item a {
-    color: #18a3eb;
+    color: black;
 }
 
 /*--------------------------------------------------------------
@@ -779,8 +779,11 @@ ul.tabs-nav .tab-nav.active {
     margin-top: 24px;
 }
 .login-box form select,
+.login-box form label,
+.login-box form textarea,
 .login-box form input[type="text"],
 .login-box form input[type="number"],
+.login-box form input[type="date"], 
 .login-box form input[type="password"] {
     display: block;
     width: calc(50% - 5px);
@@ -1597,3 +1600,40 @@ ul.tabs-nav .tab-nav.active {
 .foot-links ul li a {
     color: #828282;
 }
+
+
+/*Tab style*/
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: italic;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+

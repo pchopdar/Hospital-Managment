@@ -60,8 +60,8 @@
                     <h1>New Registration</h1>
 						<form action=""> 
 							<input type="text" placeholder="Please Enter Name">
+							<label for="gender">Select Categary</label>
 							<select class="select-posion in hospital" >
-								<option value="value1">Select Categary</option>
                                 <option value="value1">Senior Doctor</option>
                                 <option value="value2">Junior Doctor</option>
                                 <option value="value3">Receptionist</option>
@@ -73,6 +73,7 @@
                             <input type="password" placeholder="Please Enter Password">
 							<input type="password" placeholder="Please Enter Password Again">
                             <input class="button gradient-bg" type="submit" value="Register">
+							<input class="button gradient-bg" type="reset" value="Clear">
 						 </form>
 				</div>
                 </div>
